@@ -51,7 +51,7 @@
  &trans           &trans  &trans    &trans      &trans       &trans              &kp C_VOLUME_UP                                                            &trans     &trans         &trans        &trans                &trans                 &trans   &trans
  &trans           &trans  &trans    &trans      &trans       &trans            &kp C_VOLUME_DOWN  &kp C_PLAY_PAUSE  &trans                  &trans  &trans  &trans     &trans         &trans        &trans                &trans                 &trans   &trans
  &trans  &kp EXCLAMATION  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT                                                 &trans                  &trans                  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &trans
- &kp F1           &kp F2  &kp F3    &kp F4      &kp F5                                 &kp LANG1         &kp LANG2  &trans                  &trans  &trans  &trans                    &kp F6        &kp F7                &kp F8                 &kp F9  &kp F10
+ &kp F1           &kp F2  &kp F3    &kp F4      &kp F5                            &kp LANGUAGE_1    &kp LANGUAGE_2  &trans                  &trans  &trans  &trans                    &kp F6        &kp F7                &kp F8                 &kp F9  &kp F10
             >;
         };
 
