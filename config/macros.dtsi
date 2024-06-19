@@ -92,7 +92,7 @@ macro_listen: macro_listen{
 compatible = "zmk,behavior-macro";
 label = "macro_listen";
 #binding-cells = <0>;
-bindings = <&kp RCTRL>, <&kp RIGHT_GUI>, <&kp L>;
+bindings = <&sk RIGHT_GUI>, <&sk LCTRL>, <&kp L>;
 };
 macro_duplicate: macro_duplicate{
 compatible = "zmk,behavior-macro";
