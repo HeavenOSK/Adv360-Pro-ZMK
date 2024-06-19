@@ -21,11 +21,11 @@
        "&trans", "&kp EXCLAMATION", "&kp AT", "&kp HASH", "&kp DOLLAR", "&kp PERCENT",                                                    "&trans",                     "&trans",                     "&kp CARET", "&kp AMPERSAND", "&kp ASTERISK", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS",  "&trans",
        "&kp F1",          "&kp F2", "&kp F3",   "&kp F4",     "&kp F5",                                  "&kp LANG1",        "&kp LANG2", "&trans",                     "&trans", "&trans", "&trans",                     "&kp F6",       "&kp F7",               "&kp F8",                "&kp F9", "&kp F10"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                     "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                      "&none", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                                     "&trans",       "&trans",          "&trans",          "&trans",        "&trans",           "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans",                                                                                     "&trans",       "&trans",    "&macro_mag_u",    "&macro_mag_i",        "&trans",           "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                               "&trans",               "&trans", "&trans",       "&trans",    "&macro_mag_j",    "&macro_mag_k",        "&trans",           "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                               "&trans",                               "&trans",                                   "&macro_mag_d",    "&macro_mag_e",    "&macro_mag_f",  "&macro_mag_t",     "&macro_mag_g", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                     "&macro_mag_enter", "&macro_mag_backspace", "&trans",                 "&macro_mag_left", "&macro_mag_down", "&macro_mag_up", "&macro_mag_right", "&trans"
     ]
   ]
 }

@@ -1,3 +1,93 @@
+macro_mag_i: macro_mag_i{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_i";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp I>;
+};
+macro_mag_u: macro_mag_u{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_u";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp U>;
+};
+macro_mag_k: macro_mag_k{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_k";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp K>;
+};
+macro_mag_j: macro_mag_j{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_j";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp J>;
+};
+macro_mag_g: macro_mag_g{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_g";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp G>;
+};
+macro_mag_t: macro_mag_t{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_t";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp T>;
+};
+macro_mag_f: macro_mag_f{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_f";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp F>;
+};
+macro_mag_e: macro_mag_e{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_e";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp E>;
+};
+macro_mag_d: macro_mag_d{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_d";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp D>;
+};
+macro_mag_right: macro_mag_right{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_right";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RCTRL>, <&kp RIGHT>;
+};
+macro_mag_up: macro_mag_up{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_up";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp RCTRL>, <&kp UP>;
+};
+macro_mag_down: macro_mag_down{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_down";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LCTRL>, <&kp DOWN>;
+};
+macro_mag_left: macro_mag_left{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_left";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LCTRL>, <&kp LEFT>;
+};
+macro_mag_backspace: macro_mag_backspace{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_backspace";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LCTRL>, <&kp BACKSPACE>;
+};
+macro_mag_enter: macro_mag_enter{
+compatible = "zmk,behavior-macro";
+label = "macro_mag_enter";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LCTRL>, <&kp ENTER>;
+};
 macro_listen: macro_listen{
 compatible = "zmk,behavior-macro";
 label = "macro_listen";
