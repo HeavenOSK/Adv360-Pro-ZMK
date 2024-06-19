@@ -37,11 +37,11 @@
 
         default_layer {
             bindings = <
-            &none            &kp N1      &kp N2       &kp N3        &kp N4  &kp N5                           &none                                                                                                             &kp N6  &kp N7    &kp N8    &kp N9  &kp N0  &kp MINUS          &kp EQUAL
-            &none  &kp SINGLE_QUOTE   &kp COMMA   &kp PERIOD         &kp P   &kp Y                           &none                                                                                                          &kp GRAVE   &kp F     &kp G     &kp C   &kp R      &kp L           &kp BSLH
-        &kp LCTRL             &kp A       &kp O        &kp E         &kp U   &kp I                  &kp LEFT_SHIFT      &lt 2 DELETE      &kp LEFT_ALT                  &kp RIGHT_ALT            &macro_listen        &kp RIGHT_SHIFT   &kp D     &kp H     &kp T   &kp N      &kp S          &kp SLASH
-        &kp LSHFT     &kp SEMICOLON       &kp Q        &kp J         &kp K   &kp X                                                           &kp LCTRL                      &kp RCTRL                                                   &kp B     &kp M     &kp W   &kp V      &kp Z   &kp LEFT_BRACKET
- &macro_duplicate       &macro_undo  &macro_cut  &macro_copy  &macro_paste                    &mt LEFT_SHIFT SPACE  &mt LEFT_GUI TAB  &mt LEFT_ALT ESC                    &lt 1 ENTER  &mt RIGHT_GUI BACKSPACE  &mt RIGHT_SHIFT SPACE          &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp RIGHT_BRACKET
+            &none            &kp N1      &kp N2       &kp N3        &kp N4  &kp N5             &macro_listen                                                                                &kp N6  &kp N7    &kp N8    &kp N9  &kp N0  &kp MINUS          &kp EQUAL
+            &none  &kp SINGLE_QUOTE   &kp COMMA   &kp PERIOD         &kp P   &kp Y                     &none                                                                             &kp GRAVE   &kp F     &kp G     &kp C   &kp R      &kp L           &kp BSLH
+        &kp LCTRL             &kp A       &kp O        &kp E         &kp U   &kp I            &kp LEFT_SHIFT    &mo 2        &kp DELETE                        &kp ESC  &kp SPACE  &kp RIGHT_SHIFT   &kp D     &kp H     &kp T   &kp N      &kp S          &kp SLASH
+        &kp LSHFT     &kp SEMICOLON       &kp Q        &kp J         &kp K   &kp X                                         &kp LEFT_GUI                  &kp RIGHT_GUI                               &kp B     &kp M     &kp W   &kp V      &kp Z   &kp LEFT_BRACKET
+ &macro_duplicate       &macro_undo  &macro_cut  &macro_copy  &macro_paste                         &kp SPACE  &kp TAB  &mt LEFT_ALT ESC                          &mo 1  &kp ENTER    &kp BACKSPACE          &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp RIGHT_BRACKET
             >;
         };
 
