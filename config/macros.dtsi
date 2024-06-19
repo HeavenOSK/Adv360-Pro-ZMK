@@ -98,29 +98,29 @@ macro_duplicate: macro_duplicate{
 compatible = "zmk,behavior-macro";
 label = "macro_duplicate";
 #binding-cells = <0>;
-bindings = <&kp LEFT_GUI>, <&kp D>;
+bindings = <&sk LEFT_GUI>, <&kp D>;
 };
 macro_undo: macro_undo{
 compatible = "zmk,behavior-macro";
 label = "macro_undo";
 #binding-cells = <0>;
-bindings = <&kp LEFT_GUI>, <&kp Z>;
+bindings = <&sk LEFT_GUI>, <&kp Z>;
 };
 macro_cut: macro_cut{
 compatible = "zmk,behavior-macro";
 label = "macro_cut";
 #binding-cells = <0>;
-bindings = <&kp LEFT_GUI>, <&kp X>;
+bindings = <&sk LEFT_GUI>, <&kp X>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&kp LEFT_GUI>, <&kp V>;
+bindings = <&sk LEFT_GUI>, <&kp V>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&kp LEFT_GUI>, <&kp C>;
+bindings = <&sk LEFT_GUI>, <&kp C>;
 };
