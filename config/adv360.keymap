@@ -37,7 +37,7 @@
 
         default_layer {
             bindings = <
-          &none            &kp N1      &kp N2       &kp N3        &kp N4  &kp N5                     &none                                                                                                       &kp N6  &kp N7    &kp N8    &kp N9  &kp N0  &kp MINUS                     &kp EQUAL
+          &to 3            &kp N1      &kp N2       &kp N3        &kp N4  &kp N5                     &none                                                                                                       &kp N6  &kp N7    &kp N8    &kp N9  &kp N0  &kp MINUS                     &kp EQUAL
         &kp TAB  &kp SINGLE_QUOTE   &kp COMMA   &kp PERIOD         &kp P   &kp Y              &kp LEFT_ALT                                                                                                    &kp GRAVE   &kp F     &kp G     &kp C   &kp R      &kp L                      &kp BSLH
       &kp LCTRL             &kp A       &kp O        &kp E         &kp U   &kp I            &kp LEFT_SHIFT         &lt 2 DEL      &lt 2 DELETE                  &macro_listen          &kp RIGHT_SHIFT  &kp RIGHT_SHIFT   &kp D     &kp H     &kp T   &kp N      &kp S                     &kp SLASH
  &kp LEFT_SHIFT     &kp SEMICOLON       &kp Q        &kp J         &kp K   &kp X                                                     &kp LCTRL                  &kp RIGHT_ALT                                             &kp B     &kp M     &kp W   &kp V      &kp Z  &mt RIGHT_SHIFT LEFT_BRACKET
@@ -62,6 +62,16 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                             &none                &trans  &trans        &trans     &macro_mag_j     &macro_mag_k         &trans            &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                            &trans                                &macro_mag_d     &macro_mag_e     &macro_mag_f   &macro_mag_t      &macro_mag_g  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &macro_mag_enter  &macro_mag_backspace  &trans                &macro_mag_left  &macro_mag_down  &macro_mag_up  &macro_mag_right  &trans
+            >;
+        };
+
+        layer_Layer__3 {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans   &trans        &trans        &trans     &kp SLASH  &kp ASTERISK  &trans
+ &trans   &kp Q   &kp W   &kp E   &kp R   &kp T            &trans                                                  &trans   &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp MINUS  &trans
+ &trans   &kp A   &kp S   &kp D   &kp F   &kp G            &trans  &trans  &trans                  &trans  &trans  &trans   &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp PLUS  &trans
+ &trans   &kp Z   &kp X   &kp C   &kp V   &kp B                            &trans                  &trans                  &kp DOT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                 &trans        &trans        &trans        &trans  &trans
             >;
         };
 
